@@ -1,0 +1,17 @@
+server:
+  port: 8044
+spring:
+  application:
+    name: uploadpicture-consumer-microservice
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: feign                 # �˴���preferIpAddress�����û�����Ϊfalse��������Ϊtrue������Ӱ��turbine�Ĳ��ԡ�turbine���ڵ����⣺eureka.instance.hostnameһ��ʱֻ�ܼ�⵽һ���ڵ㣬�����turbine���ݲ�����
+ribbon:
+  eureka:
+    enabled: true         # Ĭ��Ϊtrue���������Ϊfalse��Ribbon�������Eureka�л�÷����б�����ʹ�þ�̬���õķ����б���̬�����б��ʹ�ã�<client>.ribbon.listOfServers��ָ�����ο���http://projects.spring.io/spring-cloud/docs/1.0.3/spring-cloud.html#spring-cloud-ribbon-without-eureka
+multipart:
+  enabled: true
+### �ο���https://spring.io/guides/gs/client-side-load-balancing/

@@ -1,0 +1,11 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: capturepicture-microservice    # ��Ŀ���ƾ�����Сд
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/    # ָ��ע�����ĵĵ�ַ
+  instance:
+    preferIpAddress: true

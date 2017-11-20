@@ -1,0 +1,17 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: uploadpicture-microservice    # ��Ŀ���ƾ�����Сд
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/    # ָ��ע�����ĵĵ�ַ
+  instance:
+    preferIpAddress: true
+
+image:
+  uploadpath: D:\\
+
+multipart:
+  enabled: true

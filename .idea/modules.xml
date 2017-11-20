@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DistributeCard.iml" filepath="$PROJECT_DIR$/DistributeCard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway-microservice/api-gateway-microservice.iml" filepath="$PROJECT_DIR$/api-gateway-microservice/api-gateway-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/capturepicture-consumer-microservice/capturepicture-consumer-microservice.iml" filepath="$PROJECT_DIR$/capturepicture-consumer-microservice/capturepicture-consumer-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/capturepicture-microservice/capturepicture-microservice.iml" filepath="$PROJECT_DIR$/capturepicture-microservice/capturepicture-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-microservice/config-microservice.iml" filepath="$PROJECT_DIR$/config-microservice/config-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/discovery-microservice/discovery-microservice.iml" filepath="$PROJECT_DIR$/discovery-microservice/discovery-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uploadpicture-consumer-microservice/uploadpicture-consumer-microservice.iml" filepath="$PROJECT_DIR$/uploadpicture-consumer-microservice/uploadpicture-consumer-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uploadpicture-microservice/uploadpicture-microservice.iml" filepath="$PROJECT_DIR$/uploadpicture-microservice/uploadpicture-microservice.iml" />
+    </modules>
+  </component>
+</project>
